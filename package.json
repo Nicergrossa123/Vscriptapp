@@ -1,10 +1,10 @@
 {
   "name": "vscript",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "main.js",
   "scripts": {
-    "pack": "electron-builder",
+    "pack": "electron-builder -p always",
     "start": "electron ."
   },
   "builder": {
@@ -12,7 +12,8 @@
       {
         "provoider": "github",
         "owner": "Nicergrossa123",
-        "repo": "Vscriptapp"
+        "repo": "Vscriptapp",
+        "private": false
       }
     ]
   },
