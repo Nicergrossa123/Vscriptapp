@@ -1,0 +1,32 @@
+{
+  "name": "vscript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "pack": "electron-builder",
+    "start": "electron ."
+  },
+  "builder": {
+    "publish":[
+      {
+        "provoider": "github",
+        "owner": "Nicergrossa123",
+        "repo": "Vscriptapp"
+      }
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^20.0.0",
+    "electron-builder": "^23.3.3",
+    "electron-updater": "^5.3.0"
+  },
+  "dependencies": {
+    "electron-log": "^4.4.8",
+    "i": "^0.3.7",
+    "nmp": "^1.0.3"
+  }
+}
